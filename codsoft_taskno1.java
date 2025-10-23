@@ -17,7 +17,7 @@ public class codsoft_taskno1 {
         System.out.println(" let's think a number between " + lowerCse + " and " + upperbound + ".");
 
         while (attempts < atmptMax) {
-            System.out.print("Enter your guess number : ");
+            System.out.print("Enter your guessing number : ");
             int UG = cs.nextInt();
             attempts++;
 
