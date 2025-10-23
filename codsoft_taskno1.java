@@ -1,6 +1,7 @@
 import java.util.Random;
 import java.util.Scanner;
 
+
 public class codsoft_taskno1 {
     
     public static int playRound(Scanner cs) {
@@ -13,7 +14,7 @@ public class codsoft_taskno1 {
         int goal = random.nextInt(upperbound - lowerCse + 1) + lowerCse;
         int attempts = 0;
 
-        System.out.println(" let's thik a number between " + lowerCse + " and " + upperbound + ".");
+        System.out.println(" let's think a number between " + lowerCse + " and " + upperbound + ".");
 
         while (attempts < atmptMax) {
             System.out.print("Enter your guess number : ");
